@@ -1,8 +1,13 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Test_Project_For_Assignment_1.About" %>
+﻿<%--Filename: About.aspx
+Authors Name: Venkata Kodithala
+Student ID: 300920874
+Creation Date: 2016-09-25--%>
+
+<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Test_Project_For_Assignment_1.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <%--<h2><%: Title %>.</h2>--%>
-    <%--The <img /> tag holds my current image--%>
+    <!--The <img /> tag holds my current image-->
     <img src="Assets/MonicaProfilePicture.jpg" runat="server" class="ImageStyle" />
     <h2 class="NameStyle">Venkata Kodithala</h2>
     <h4>An Enthusiastic Person striving for Excellence!</h4>

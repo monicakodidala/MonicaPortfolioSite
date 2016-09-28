@@ -13,7 +13,7 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="Content/PortfolioStyles.css">
+    <link rel="stylesheet" type="text/css" href="Content/PortfolioStyles.css"/>
     <%-- My Custom StyleSheet referenced here  --%>
 </head>
 <body>
@@ -34,10 +34,14 @@
                 <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+               <%-- Tried below to reference my javascript file but did not work--%>
+                <%--<asp:ScriptReference Name="PortfolioScripts.js" Path="~/Scripts/PortfolioScripts.js" />--%>
                 <asp:ScriptReference Name="WebFormsBundle" />
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
+
+        <script src='<%= ResolveUrl("~/Scripts/PortfolioScripts.js") %>'></script>
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -57,10 +61,12 @@
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
-                            <ul class="nav navbar-nav navbar-right">
+
+                       <%-- Removing Register and Log in links as it is not in the requirement--%>
+                            <%--<ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Account/Register">Register</a></li>
                                 <li><a runat="server" href="~/Account/Login">Log in</a></li>
-                            </ul>
+                            </ul>--%>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <ul class="nav navbar-nav navbar-right">

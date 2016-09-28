@@ -1,11 +1,11 @@
-﻿body {
-}
-
+﻿/*Filename: PortfolioStyles.css
+Authors Name: Venkata Kodithala
+Student ID: 300920874
+Creation Date: 2016-09-25*/
 
 .ImageStyle {
     padding-top:20px;
 }
-
 
 .NameStyle {
     color:blue;
@@ -15,4 +15,3 @@
     margin-top:5px;
     background-color:cornflowerblue;
 }
-

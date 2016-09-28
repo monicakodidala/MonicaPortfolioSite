@@ -15,8 +15,8 @@ Creation Date: 2016-09-25--%>
     <%--Displays an unordered list of data--%>
     <ul>
         <li>To Deliver a quality and error free product to my clients</li>
-        <li>Excel at my work </li>
-        <li>To not give up </li>
+        <li>To Excel at my work </li>
+        <li>To continuously learn and achieve my targets</li>
     </ul>
     <%--Adds a line break--%>
     <br />

@@ -50,12 +50,12 @@ Creation Date: 2016-09-25--%>
 
         <br />
         <br />
-        <h3>Contact Information</h3>
+        <h3>Get In Touch</h3>
 
         <%--Creates placeholders and a Send button--%>
-        <input type="text" placeholder="Name" /><br />
-        <input type="text" placeholder="Contact Number" /><br />
-        <input type="text" placeholder="Message" />
+        <input type="text" placeholder="Name" class="Textboxstyle" /><br />
+        <input type="text" placeholder="Contact Number" class="Textboxstyle" /><br />
+        <input type="text" placeholder="Message" class="Textboxstyle"/>
         <br />
         <!-- This is a javascript function. When send button is clicked, the onclick event triggers and this calls the javascript function "buttonClicked"  -->
 

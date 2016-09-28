@@ -16,7 +16,7 @@ Creation Date: 2016-09-27--%>
 
     <div> 
         <!--Image Source=http://www.linkedin.com/ -->
-        <a href="About.aspx" title="About"><img src="~/Assets/AboutMe.png" runat="server" /></a>
+        <a href="About.aspx" title="About Me"><img src="~/Assets/AboutMe.png" runat="server" /></a>
 
         <!--I have tried to align this image to the right but could not do it. So i increased size of About image -->
         <a href="Contact.aspx" title="Contact"><img src="~/Assets/Contact.png" runat="server" /></a>
